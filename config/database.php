@@ -2,7 +2,7 @@
 class Database{
 
     private $host = "localhost";
-    private $db_name = "php_oop";
+    private $db_name = "aparg_test";
     private $username = "root";
     private $password = "";
     public $conn;

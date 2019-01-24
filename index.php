@@ -3,7 +3,6 @@
 include_once 'config/database.php';
 include_once 'objects/UrlContent.php';
 
-
 $database = new Database();
 $db = $database->getConnection();
 
@@ -11,7 +10,6 @@ $urlContent = new UrlContent($db);
 
 $page_title = "Home page";
 include_once "layout_header.php";
-
 
 if ($_POST) {
     $url = $_POST['url'];
